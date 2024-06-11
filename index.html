@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hitit Gümrük Müşavirliği</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Oswald:wght@200..700&display=swap"
+        rel="stylesheet">
+        
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+          <a href="index.html"><img src="img/logo.png" alt="logo"></a>
+          <div class="nav-links" id="navLinks">
+            <i class="fa fa-times mhamlink" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="index.html">ANASAYFA</a></li>
+              <div class="kurumsalmenu">
+                <li>
+                  <a href="javascript:void(0)" onclick="toggleDropdown('kurumsalDropdown')">KURUMSAL</a>
+                  <ul id="kurumsalDropdown">
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="vizyonvemisyon.html">Vizyon ve Misyon</a></li>
+                    <li><a href="politikalarımız.html">Politikalarımız</a></li>
+                    <li><a href="KVKK.html">KVKK</a></li>
+                  </ul>
+                </li>
+              </div>
+              <div class="hizmetlerimizmenu">
+                <li>
+                  <a href="javascript:void(0)" onclick="toggleDropdown('hizmetlerDropdown')">HİZMETLERİMİZ</a>
+                  <ul id="hizmetlerDropdown">
+                    <li><a href="ithalat.html">İthalat</a></li>
+                    <li><a href="ihracat.html">İhracat</a></li>
+                    <li><a href="serbestbölge.html">Serbest Bölge</a></li>
+                    <li><a href="fuarveatakarne.html">Fuar ve Atakarne</a></li>
+                  </ul>
+                </li>
+              </div>
+              <li><a href="iletisim.html">İLETİŞİM</a></li>
+            </ul>
+          </div>
+          <i class="fa fa-bars mhamlink" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+          <h1>Hitit Gümrük Müşavirliği</h1>
+          <p>2000 Yılında %100 yerli - %100 milli sermaye ile kurulan Hitit Gümrük Müşavirliği alanında lider ve
+            yatırımlarıyla öncü firmadır.</p>
+          <a href="iletisim.html" class="hero-btn">İletişim</a>
+        </div>
+      </section>
+    <section class="aciklama">
+        <p class="margin"></p>
+        <div class="row">
+            <div class="aciklama-col">
+                <img src="img/online.jpg" alt="">
+                <h3>Online İşlemler</h3>
+                <p>Gümrük işlemlerinizi internet ortamında günün her saatinde takip edebilmeniz için web üzerinde
+                    oluşturduğumuz servisimiz olup talebinize istinaden size özel kullanıcı kod ve şifresi ile
+                    hizmetinize sunulmaktadır.</p>
+            </div>
+            <div class="aciklama-col">
+                <img src="img/kalite.jpg" alt="">
+                <h3>Kalite ve Eğitim</h3>
+                <p>Hizmetlerinin ISO 9001 Kalite Yönetim Sistemi şartlarına uygun sürdürülmesi vazgeçilmez önceliği olan
+                    Hitit Gümrük Müşavirliği, konusunda uzman iç denetçilerle sistemini sürekli kontrol etmekte ve
+                    gerektiği durumlarda iyileştirme çalışmalarını derhal hayata geçirmektedir.</p>
+            </div>
+            <div class="aciklama-col">
+                <img src="img/cevre.jpg" alt="">
+                <h3>Çevreci Politika</h3>
+                <p>Hitit Gümrük Müşavirliği, hizmetlerini verirken doğanın ve çevrenin korunması bilinciyle hareket
+                    etmeyi taahhüt eder ve bu konuda yasal mevzuatlara uygun her türlü çabayı destekleyerek daha yeşil
+                    ve yaşanabilir bir dünya için üzerine düşen sorumlulukları eksiksiz yerine getirmektedir.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="hizmetler">
+        <h1>Hizmetler</h1>
+        <p>Gümrük ile ilgili tüm sektörlerde hizmet vermekteyiz.</p>
+
+
+
+        <div class="row">
+            <div class="hizmet-col">
+                <img src="img/ihracat.png" alt="">
+                <div class="layer">
+                    <a href="ihracat.html">
+                        <h3>İHRACAT</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="hizmet-col">
+                <img src="img/ithalat.png" alt="">
+                <div class="layer">
+                    <a href="ithalat.html">
+                        <h3>İTHALAT</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="hizmet-col">
+                <img src="img/serbestbölge.png" alt="">
+                <div class="layer">
+                    <a href="serbestbölge.html">
+                        <h3>SERBEST BÖLGE</h3>
+                    </a>
+                </div>
+            </div>
+            <div class="hizmet-col">
+                <img src="img/fuar.png" alt="">
+                <div class="layer">
+                    <a href="fuarveatakarne.html">
+                        <h3>FUAR VE ATAKARNE</h3>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="haber">
+        <h1>Duyurular</h1>
+
+
+
+        <div class="row">
+            <div class="haber-col">
+                <img src="img/yılbasi.jpg">
+                <h3>Şirketimizin Yılbaşı Etkinliği Düzenlendi</h3>
+                <a href="#" class="haberlink">Haberi Oku</a>
+            </div>
+            <div class="haber-col">
+                <img src="img/kadıköy.JPG">
+                <h3>Kadıköy Ofisimiz Açıldı</h3>
+                <a href="#" class="haberlink">Haberi Oku</a>
+            </div>
+            <div class="haber-col">
+                <img src="img/kadınlargünü.jpg">
+                <h3>Kadınlar Gününü Kutladık</h3>
+                <a href="#" class="haberlink">Haberi Oku</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="haber">
+        <h1>Mevzuat Haberleri</h1>
+
+
+
+        <div class="row">
+            <div class="haber-col">
+                <img src="img/tb.png">
+                <h3>İthalatta Gözetim Uygulanmasına İlişkin Tebliğ Değişikliği</h3>
+                <a href="#" class="haberlink">Haberi Oku</a>
+            </div>
+            <div class="haber-col">
+                <img src="img/tb.png">
+                <h3>Yetkilendirilmiş Gümrük Müşavirliği Rehberi</h3>
+                <a href="#" class="haberlink">Haberi Oku</a>
+            </div>
+            <div class="haber-col">
+                <img src="img/tb.png">
+                <h3>Menşe kontrol tablosunda Değişiklik</h3>
+                <a href="#" class="haberlink">Haberi Oku</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="sirketlogo">
+                <a href="https://hititgumruk.com/"><img src="img/hititgümrük.jpeg"></a>
+                <a href="https://www.hititlojistik.com/"><img src="img/hititlojistik.jpeg"></a>
+                <a href="https://www.hitittrans.com/"><img src="img/hitittrans.jpeg"></a>
+                <a href="https://www.hititantrepo.com/"><img src="img/hititantrepo.jpeg"></a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="row">
+            <div class="teklif">
+                <h1>Hitit Gümrük Müşavriliği</h1>
+                <h3> Tüm Gümrük İşlemleri için fiyat teklifi alabilirsiniz. Bize ulaşın.
+                </h3>
+
+                <div class="teklifform">
+                    <form action="iletisim.html" method="post">
+                        <input type="text" name="ad" placeholder="Adınız" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="tel" name="tel" placeholder="Telefon" required>
+                        <input type="text" name="konu" placeholder="Konu" required>
+                        <button type="submit" class="teklif-btn">Gönder</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="footer">
+            <div class="row">
+                <div class="footer-col">
+                    <h4>Hitit Gümrük Müşavirliği</h4>
+                    <p>2000 Yılında %100 yerli - %100 milli sermaye ile kurulan Hitit Gümrük Müşavirliği alanında
+                        lider ve
+                        yatırımlarıyla öncü firmadır.</p>
+                    <p class="adres">
+                        MERKEZ OFİS <br>
+                        15 Temmuz Mah. Koçman Cad. Demirkol Plaza A Blok No: 54 K: 2 Güneşli, 34212 Bağcılar, İSTANBUL /
+                        TÜRKİYE <br>
+                        Tel : 444 8 488 <br>
+                        Fax : +90 (212) 603 33 22 <br>
+                        E-mail : info@hititgumruk.com</p> <br>
+                    <a href="iletisim.html"><button class="contact-button">Bize Ulaşın</button></a> <br>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3009.864294251937!2d28.809406875746195!3d41.0282248181969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14caa458891d464d%3A0xfedf7fec5125b287!2sDemirkol%20Plaza!5e0!3m2!1str!2str!4v1717491192012!5m2!1str!2str"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="googlemaps"></iframe>
+
+
+
+                </div>
+
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+    
+        function showMenu() {
+          navLinks.style.right = "0";
+        }
+    
+        function hideMenu() {
+          navLinks.style.right = "-200px";
+        }
+    
+        function toggleDropdown(id) {
+          var dropdown = document.getElementById(id);
+          if (dropdown.style.display === "block") {
+            dropdown.style.display = "none";
+          } else {
+            dropdown.style.display = "block";
+          }
+        }
+      </script>
+</body>
+
+</html>
